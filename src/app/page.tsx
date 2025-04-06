@@ -1,10 +1,18 @@
-import { baseUrl } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 
-export default async function Home() {
-  const response = await fetch(`${baseUrl}/api/images`);
-  const images = await response.json();
+export default function Home() {
+  const images = [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+  ];
 
   return (
     <main className="my-8 mx-4 flex flex-col items-center gap-8">
