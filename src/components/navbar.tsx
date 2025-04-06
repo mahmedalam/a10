@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <header className="border-b bg-card text-card-foreground shadow">
       <nav className="h-16 mx-8 flex items-center justify-between">
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-3xl font-bold">
           <span className="text-primary">A</span>10
         </h1>
         <Button variant="outline" size="icon" onClick={toggleTheme}>
